@@ -12,8 +12,6 @@ public class Reserva {
 	@GeneratedValue
 	private Long id;
 
-	private String cadeira;
-
 	@ManyToOne
 	private Espetaculo espetaculo;
 }
